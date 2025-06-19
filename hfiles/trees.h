@@ -288,7 +288,7 @@ void deletex(TreeNode *&root, tdata x) {
     TreeNode *pred;
     TreeNode *p = find(root, pred, x);
     if (p) deletenode(p, pred);
-    else cout << "Ошибкв";
+    else cout << "Ошибка";
 }
 void insert_rec(TreeNode *&root, tdata x){
     if (root== nullptr){
